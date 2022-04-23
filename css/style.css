@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); /*Itim*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/*Itim*/
 
 html,
 body {
@@ -10,51 +11,42 @@ body {
     font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
 }
 
-.navigation {
+.container-fluid {
     background-color: #F1B37A;
 }
 
-.navbar-brand img {
-    width: 40px;
-    height: 50px;
-}
 
-.fas{
-    color: white;    
-}
-
-.navbar-brand{
+.navbar-brand {
     margin-top: 10px;
     margin-left: 30px;
     color: white;
     font-size: x-large;
 }
 
-.nav {
-    margin-top: px;
-}
 
 .col img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .col {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
 }
 
 .col,
 .row {
     max-width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .row {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .background-image-container {
@@ -72,12 +64,16 @@ body {
 
 .hero-full-container .hero-full-wrapper {
     width: 100%;
-    min-height: 50vh
+    min-height: 50%
 }
 
 .hero-full-container .hero-full-wrapper .text-content {
     vertical-align: middle;
     display: table-cell
+}
+
+.hero-full-wrapper {
+    margin-left: 100px;
 }
 
 .white-text-container h1,
@@ -94,13 +90,240 @@ body {
     color: #fff
 }
 
-#left {
-    background-color: #8CA386;
-}
-
 .hero-full-container {
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 50%;
     transform: translate(-40%, -50%);
 }
+
+
+#right .col {
+    border: #ffffff solid 4px;
+    border-bottom: 0px;
+    border-radius: 14px;
+}
+
+#right .col img {
+    border-radius: 10px;
+}
+
+#left img {
+    border-top: #F1B37A solid 4px;
+    border-radius: 10px;
+}
+ 
+
+#detail01_Case01 {
+    display: none;
+    padding: 0px;
+}
+
+#detail02_Case01 {
+    display: none;
+    padding: 0px;
+}
+
+#detail03_Case01 {
+    display: none;
+    padding: 0px;
+}
+
+#moreDetail h1 {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+    #detail01_Case01 {
+        display: block;
+    }
+
+    #detail01_Case02 {
+        display: none;
+    }
+
+    #detail02_Case01 {
+        display: block;
+    }
+
+    #detail02_Case02 {
+        display: none;
+    }
+
+
+    #detail03_Case01 {
+        display: block;
+    }
+
+    #detail03_Case02 {
+        display: none;
+    }
+
+    #moreDetail h1 {
+        text-align: left;
+    }
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.thumbnail img {
+    width: 190px;
+    height: 190px;
+}
+
+/*footer*/
+  .footer-right p,
+  .footer_middle p {
+    font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #F1B37A;
+  }
+  
+  ul.footer_list {
+    list-style: none;
+    padding-left: 0px;
+  }
+  ul.footer_list li {
+    color: #F1B37A;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  
+  ul.footer_list li.phone {
+    font-size: 22px;
+      color: rgba(255, 255, 255, 0.548);
+  }
+  
+  ul.footer_list li a {
+    color: #F1B37A;
+    font-weight: 500;
+    text-transform: none;
+  }
+  ul.footer_list a:hover {
+    color: rgba(54, 204, 142, 1);
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .footer_middle h4, .footer-right h4 {
+    font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  
+  .footer_middle {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .footer-right h4, .footer-left h4 {
+    font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #hero-cta-email {
+    height: 50px;
+    width: 60%;
+  }
+  
+  .hero-cta__form input {
+    width: 100%;
+    float: left;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+    font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    opacity: 1;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .hero-cta__form input:focus {
+    outline: none;
+  }
+  
+  .emailsignup {
+    font-family: 'Itim', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    height: 50px;
+    width: 30%;
+    border: none;
+    background-color: #36cc8e;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+  
+  .trustlogos {
+    content: url(...);
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  
+  .footer_trust_top {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .footer_trust_top p {
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.5);
+  }
+  
+    .footer-left {
+      padding-left: 0px;
+      justify-content: flex-start;
+    }
+    .footer-right {
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+  .footer_main {
+    margin: 0px 0px 0px 0px;
+  }
+  
+  
+  .footer_copyright p {
+    font-size: 12px;
+    color: rgb(0,0,0,0.5);
+  padding-top: 20px;
+  }
+  
+  .footer__partners img {
+    float: right;
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  
+   
+  h4 {
+    color: white;
+  }
+  
+  p {
+    color: #F1B37A;
+  }
+
+  footer .container{
+    background-color: #8CA386;
+      margin: 0px;
+      width: 100%;
+  }

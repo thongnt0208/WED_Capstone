@@ -15,3 +15,7 @@ Create a single web page that fits the following requirements:
 - Each page must be styled.  The goal is not to impress, but to show competence.  So add enough to show that you know how to write CSS rules.  But peer-review with the knowledge that not everything will be beautiful.
 
 ## Screenshots:
+- PC:
+  <img src="https://github.com/thongnt0208/WED_Capstone/blob/main/screenshots/wed-capstone-pc.gif"></img>
+- Mobile:
+ <img src="https://github.com/thongnt0208/WED_Capstone/blob/main/screenshots/wed-capstone-mobile.gif"></img>

@@ -16,6 +16,8 @@ Create a single web page that fits the following requirements:
 
 ## Screenshots:
 - PC:
+
   <img src="https://github.com/thongnt0208/WED_Capstone/blob/main/screenshots/wed-capstone-pc.gif"></img>
 - Mobile:
+
  <img src="https://github.com/thongnt0208/WED_Capstone/blob/main/screenshots/wed-capstone-mobile.gif"></img>
